@@ -1,11 +1,11 @@
 ---
-title: "Section 1: Setting Up Environment For Collaborative Code Development"
+title: "Section 1: Obtaining the Software Project and Preparing Virtual Environment"
 colour: "#fafac8"
-start: true
+start: False
 teaching: 5
 exercises: 0
 questions:
-- "What tools are needed to collaborate on code development effectively?"
+- "What tools are needed for collaborative software development?"
 objectives:
 - "Provide an overview of all the different tools that will be used in this course."
 keypoints:
@@ -13,6 +13,8 @@ keypoints:
 you need to use a number of different tools."
 - "When there is a choice of tools for a task you will have
 to decide which tool is right for you, which may be a matter of personal preference or what the team or community you belong to is using."
+- "A popular tool for organizing collaborative software development is Git, that allows you to share your code with other people
+and keep track of its changes."
 ---
 
 The first section of the course is dedicated to setting up your environment for collaborative software development
@@ -29,8 +31,6 @@ we select one to use but mention alternatives too.
 As you get more comfortable with different tools and their alternatives,
 you will select the one that is right for you based on your personal preferences
 or based on what your collaborators are using.
-
-![Tools needed to collaborate on code development effectively](../fig/section1-overview.png){: .image-with-shadow width="800px" }
 
 Here is an overview of the tools we will be using.
 
@@ -87,6 +87,24 @@ a free, open-source IDE, widely used in the astronomic community.
 > more suited for software development that is not related to data exploration and analysis. That course is included in
 > the Carpentries Incubator program, and you can access it [here](https://carpentries-incubator.github.io/python-intermediate-development/).
 {: .callout}
+
+
+### Git & GitHub
+[Git](https://git-scm.com/) is a free and open source distributed version control system
+designed to save every change made to a (software) project,
+allowing others to collaborate and contribute.
+In this course, we use Git to version control our code in conjunction with [GitHub](https://github.com/)
+for code backup and sharing.
+GitHub is one of the leading integrated products and social platforms
+for modern software development, monitoring and management -
+it will help us with
+version control,
+issue management,
+code review,
+code testing/Continuous Integration,
+and collaborative development.
+An important concept in collaborative development is version control workflows
+(i.e. how to effectively use version control on a project with others).
 
 ### Python Coding Style
 Most programming languages will have associated standards and conventions for how the source code
