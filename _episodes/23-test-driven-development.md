@@ -1,6 +1,6 @@
 ---
 title: "Robust Software with Testing Approaches"
-teaching: 20
+teaching: 15
 exercises: 10
 questions:
 - "How can we make our programs more resilient to failure?"
