@@ -1,5 +1,5 @@
 ---
-title: "Section 2: Ensuring Correctness of Software at Scale"
+title: "Ensuring Correctness of Software at Scale"
 colour: "#fafac8"
 start: false
 teaching: 5
