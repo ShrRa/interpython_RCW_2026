@@ -63,14 +63,14 @@ are transferable to other similar tools and programming languages.
 
 The course is organised into the following sections:
 
-### [Preamble: Software project example](../10-section1-intro/index.html)
+### [Section 0: Software project example](../10-section1-intro/index.html)
 In the first section, we'll look into the software project that we will use for further testing and profiling
 and set up our virtual environment.
 
 - we can obtain the project from its **GitHub repository**.
 - to avoid conflicts between different versions of Python distributions and packages, we will create a separate **virtual environment**.
 
-### [Automatically testing software at scale](../20-section2-intro/index.html)
+### [Section 1: Automatically testing software at scale](../20-section2-intro/index.html)
 In this section we are going to establish what is included in software testing and how we can perform the basic type of it, **unit testing**.
 
 - **Unit testing** for testing separate functions of the software;
