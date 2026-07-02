@@ -1,5 +1,5 @@
 ---
-title: "Preamble: Obtaining the Software Project and Preparing a Virtual Environment"
+title: "Section 0: Obtaining the Software Project and Preparing a Virtual Environment"
 colour: "#fafac8"
 start: False
 teaching: 10
