@@ -1,7 +1,7 @@
 ---
 title: "Continuous Integration for Automated Testing"
-teaching: 20
-exercises: 0
+teaching: 15
+exercises: 5
 questions:
 - "How can I automate the testing of my repository's code in a way that scales well?"
 - "What can I do to make testing across multiple platforms easier?"
@@ -461,6 +461,30 @@ which potentially saves us a lot of time waiting for testing results.
 Overall, this approach allows us to massively scale our automated testing
 across platforms we wish to test.
 
+> ## Exercise: Extend the Build Matrix
+>
+> Our current build matrix tests three operating systems and two Python versions:
+>
+> ~~~
+> strategy:
+>   matrix:
+>     os: [ubuntu-latest, macos-latest, windows-latest]
+>     python-version: ["3.10", "3.11"]
+> ~~~
+> {: .language-yaml}
+>
+> 1. Without running anything, work out how many build jobs this matrix currently creates.
+> 2. Edit `main.yml` to add Python `"3.9"` to the matrix. How many build jobs will run now?
+> 3. Commit and push your change, then check the **Actions** tab (or the commit's checks) on GitHub to confirm the number of jobs matches your prediction.
+>
+> > ## Solution
+> >
+> > 1. 3 operating systems × 2 Python versions = **6 jobs**.
+> > 2. Adding `"3.9"` gives 3 operating systems × 3 Python versions = **9 jobs**.
+> > 3. After pushing, the GitHub Actions run should show 9 separate jobs, one for each os/Python-version combination — confirming that the matrix expands to every permutation automatically.
+> {: .solution}
+>
+{: .challenge}
 
 ## Merging Back to `develop` Branch
 
