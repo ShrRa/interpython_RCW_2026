@@ -262,22 +262,6 @@ we are adding an `if` statement to separately handling the situation when a rais
 
 Be sure to commit your changes so far and push them to GitHub.
 
-> ## Optional Exercise: Add a Precondition to Check the Correct Type and Column Names
->
-> Add preconditions to check that input data is `DataFrame` object and that its columns
-> contain the column for which we have to perform normalization.
-> Add corresponding tests to check that the function raises the correct exception.
-> You will find the Python function
-> [`isinstance`](https://docs.python.org/3/library/functions.html#isinstance)
-> useful here, as well as the Python exception
-> [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError).
-> Once you are done, commit your new files,
-> and push the new commits to your remote repository on GitHub.
->
-{: .challenge}
-
-If you do the challenge, again, be sure to commit your changes and push them to GitHub.
-
 You should not take it too far by trying to code preconditions for every conceivable eventuality.
 You should aim to strike a balance between
 making sure you secure your function against incorrect use,
