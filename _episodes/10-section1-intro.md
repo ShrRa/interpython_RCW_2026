@@ -2,7 +2,7 @@
 title: "Section 0: Obtaining the Software Project and Preparing a Virtual Environment"
 colour: "#fafac8"
 start: False
-teaching: 10
+teaching: 15
 exercises: 0
 questions:
 - "What tools are needed for collaborative software development?"

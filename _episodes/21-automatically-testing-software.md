@@ -1,7 +1,7 @@
 ---
 title: "Automatically Testing Software"
 teaching: 20
-exercises: 10
+exercises: 5
 questions:
 - "Does the code we develop work the way it should do?"
 - "Can we (and others) verify these assertions for themselves?"
