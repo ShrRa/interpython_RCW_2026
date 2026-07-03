@@ -2,7 +2,7 @@
 title: "Setting the Scene"
 start: false
 colour: "#FBED65"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "What are we teaching in this course?"
@@ -76,7 +76,6 @@ In this section we are going to establish what is included in software testing a
 - **Unit testing** for testing separate functions of the software;
 - how to set up a **test framework** and write tests to verify the behaviour of our code is correct in different situations;
 - what kind of cases should we test;
-- what is **Test Driven Development**.
 - how to automate and scale testing with **Continuous Integration (CI)** using
   **GitHub Actions** (a CI service available on GitHub).
 
