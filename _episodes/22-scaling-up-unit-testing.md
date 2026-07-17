@@ -1,5 +1,5 @@
 ---
-title: "Scaling Up Unit Testing"
+title: "Lesson 2: Scaling Up Unit Testing"
 teaching: 10
 exercises: 5
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "Continuous Integration for Automated Testing"
+title: "Lesson 3: Continuous Integration for Automated Testing"
 teaching: 15
 exercises: 5
 questions:

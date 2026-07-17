@@ -1,5 +1,5 @@
 ---
-title: "Automatically Testing Software"
+title: "Lesson 1: Automatically Testing Software"
 teaching: 20
 exercises: 5
 questions:
