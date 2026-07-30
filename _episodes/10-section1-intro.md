@@ -136,6 +136,37 @@ and then obtain a local copy of that project (from your GitHub) on your machine.
 
    ![View of the own copy of the software template repository in GitHub](../fig/11_4_soft_proj_repo.png){: .image-with-shadow width="800px" }
 
+## Obtaining the Software Project Locally
+
+Using the command line, clone the copied repository from your GitHub account into the home directory on your computer using SSH.
+
+1. Find the SSH URL of the software project repository to clone from your GitHub account. Make sure you do not clone the original template repository but rather your own copy, as you should be able to push commits to it later on. Also make sure you select the **SSH tab** and not the HTTPS one. These two protocols implement different security measures, and since 2021 GitHub offers full support only for the SSH cloning; namely, you won't be able to send your changes to the repository if you use HTTPS method.
+
+![URL to clone the repository in GitHub](../fig/11_5_soft_proj_repo.png){: .image-with-shadow width="800px" }
+
+2. Make sure you are located in your home directory in the command line with:
+     ~~~
+     $ cd ~
+     ~~~
+     {: .language-bash}
+3. From your home directory in the command line, do:
+     ~~~
+     $ git clone git@github.com:<YOUR_GITHUB_USERNAME>/InterPython_Workshop_Example.git
+     ~~~
+     {: .language-bash}
+Make sure you are cloning your copy of the software project and not the template repository.
+
+4. Navigate into the cloned repository folder in your command line with:
+    ~~~
+     $ cd InterPython_Workshop_Example
+    ~~~
+    {: .language-bash}
+Note: If you have accidentally copied the **HTTPS** URL of your repository instead of the SSH one, you can easily fix that from your project folder in the command line with:
+    ~~~
+    $ git remote set-url origin git@github.com:<YOUR_GITHUB_USERNAME>/InterPython_Workshop_Example.git
+    ~~~
+    {: .language-bash}
+
 ## Setting Up a Virtual Environment for our Project
 
 Let us have a look at how we can create and manage virtual environments from the command line
