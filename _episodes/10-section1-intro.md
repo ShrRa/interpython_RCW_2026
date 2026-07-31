@@ -169,6 +169,10 @@ Note: If you have accidentally copied the **HTTPS** URL of your repository inste
 
 ## Setting Up a Virtual Environment for our Project
 
+So what exactly are virtual environments, and why use them?
+
+A Python virtual environment helps us create an isolated working copy of a software project that uses a specific version of Python interpreter together with specific versions of a number of external libraries installed into that virtual environment. Python virtual environments are implemented as directories with a particular structure within software projects, containing links to specified dependencies allowing isolation from other software projects on your machine that may require different versions of Python or external libraries.
+
 Let us have a look at how we can create and manage virtual environments from the command line
 using `venv` and manage packages using `pip`.
 
