@@ -232,6 +232,19 @@ TOTAL                     12      1    92%
 ~~~
 {: .output}
 
+> ## Tip: Generating an HTML Coverage Report
+>
+> Note: running
+>
+> ~~~
+> $ python -m pytest --cov=lcanalyzer.models --cov-report=html tests/test_models.py
+> ~~~
+> {: .language-bash}
+>
+> generates an HTML file (in a new `htmlcov/` directory) that you can open in a browser
+> for an interactive, line-by-line view of which statements in your code are covered.
+{: .callout}
+
 So there's still one statement not being tested at line 20,
 and it turns out it's in the function `load_dataset()`.
 Here we should consider whether or not to write a test for this function,
@@ -261,6 +274,9 @@ $ git commit -m "Add coverage support"
 $ git push origin test-suite
 ~~~
 {: .language-bash}
+
+<details markdown="1">
+  <summary>Optional: What about Testing Against Indeterminate Output? (click to expand)</summary>
 
 > ## What about Testing Against Indeterminate Output?
 >
@@ -325,6 +341,11 @@ $ git push origin test-suite
 > and bear in mind this could mean you need to run *a lot* of tests
 > which may take considerable time.
 {: .callout}
+
+</details>
+
+<details markdown="1">
+  <summary>Optional: Package-specific asserts (click to expand)</summary>
 
 ## Package-specific asserts
 
@@ -474,5 +495,7 @@ Going back to the code of the function, we discover that these two lines:
 {: .language-python}
 use incorrect functions - a common case when e.g. part of the code was copy-pasted. Now we can fix these errors and 
 relaunch the tests to make sure everything else is correct.
+
+</details>
 
 {% include links.md %}
